@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to Materials modelling group"
 date:   2025-01-24 14:51:57 +0300
 categories: jekyll update
 ---
