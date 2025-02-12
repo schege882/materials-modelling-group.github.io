@@ -9,17 +9,21 @@ title: About Us
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        abbr {
+            text-decoration: none;
+        }
         .members-container {
             display: flex;
             justify-content: center;
-            gap: 20px;
-            text-align: center;
             flex-wrap: wrap;
         }
 
         .member img {
             width: 300px;
             height: 200px;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15%;
         }
 
         .member {
@@ -30,9 +34,25 @@ title: About Us
 <body>
     <h1> {{ page.title }} </h1>
     <p>
-        The materials modelling group is based at the Technical University of Kenya. 
-        We mainly perform electronic structure research for the purpose of studying and 
-        investigating properties of materials based on simulations.
+        The Materials Modelling Group is based at the Technical University of Kenya. 
+        We are dedicated in contributing to the advancement of theoretical and computational
+        material science. 
+        Our research focuses on predicting and understanding properties of
+        materials using <i>first principles</i> codes such as 
+        <abbr title="Quantum ESPRESSO">
+            <a href="https://www.quantum-espresso.org/" target="_blank">QE,</a>
+        </abbr>
+        <abbr title="Vienna Ab initio Simulation Package">
+            <a href="https://www.vasp.at/" target="_blank">VASP,</a>
+        </abbr>
+        <abbr title="Spanish Initiative for Electronic Simulations with Thousands of Atoms">
+            <a href="https://siesta-project.org/siesta/" target="_blank">SIESTA,</a>
+        </abbr>
+        <a href="https://abinit.github.io/abinit_web/" target="_blank">ABINIT</a> and
+        <a href="https://www.yambo-code.eu/" target="_blank">YAMBO.</a>
+        The Materials Modelling Group is composed of researchers with expertise in condensed matter
+        physics and computational techniques. The team includes faculty members and graduate students,
+        all working collaboratively to address various research questions.
     </p>
 
     <h2> Our members </h2>
@@ -72,6 +92,20 @@ title: About Us
             <br>
             <b>Perpetua Muchiri</b>
         </div>
+        <!--%%%%%%%%%%%%-->
+        <!--%%%%%%%%%%%%-->
+        <div class="member">
+            <img src="/pictures/Lady.jpeg" alt="Carolyne Bakasa">
+            <br>
+            <b>Carolyne Bakasa</b>
+        </div>
+        <!--%%%%%%%%%%%%-->
+        <div class="member">
+            <img src="/pictures/ManPlaceHolder.png" alt="Renson">
+            <br>
+            <b>Renson</b>
+        </div>
+        <!--%%%%%%%%%%%%-->
         <!--%%%%%%%%%%%%-->
         <div class="member">
             <img src="/pictures/BillOyomo.jpeg" alt="Bill Clintone">
