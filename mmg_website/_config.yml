@@ -50,7 +50,10 @@ header_pages:
   - activities.html
   - publications.html
   - about_us.html
-  - collaborators.html    
+  - collaborators.html 
+
+# Enable use of MathJax
+math: true   
 
 # Exclude from processing.
 # The following items will not be processed, by default.

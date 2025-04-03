@@ -71,12 +71,7 @@ layout: default
             <img src="assets/images/pictures/tuk-logo.webp" class="tuk-logo" alt="">
             <img src="assets/images/pictures/unican-logo.jpg" class="unican-logo" alt="">
         </div>
-
     </div>
-
-
-    
-
 
 </body>
 </html>
