@@ -27,7 +27,9 @@ layout: default
             width: 80px; 
         } 
         .erasmus23 {
-            width: 100%;
+            margin-left: 10%;
+            margin-right: 10%;
+            width: 80%;            
         }
     </style>
 </head>
