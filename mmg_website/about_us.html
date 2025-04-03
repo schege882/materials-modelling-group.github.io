@@ -1,45 +1,67 @@
 ---
-layout: default
+layout: about
 title: About Us
 ---
 
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        body {
-            font-size: 16px;
-            line-height: 1.5;
+        h1 {
+            font-size: 2rem;
         }
         abbr {
             text-decoration: none;
         }
-        p {
+        .description {
             text-align: justify;
+            font-size: 1.1rem;
+            line-height: 1.5;
         }
+
         .members-container {
-            display: flex;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
             justify-content: center;
-            flex-wrap: wrap;
+            align-items: end;
         }
 
         .member img {
-            height: 200px;
-            padding: 10px;
-            margin: 10px;
-            border-radius: 15%;
+            height: 80%;
+            width: 80%;
+            border-radius: 10%;
+            margin-bottom: 8px;
+            /* border-bottom: #555 solid 1px; */
+            /* border: lime solid; */
         }
 
-        .member {
+        .member-name {
             text-align: center;
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+
+        @media (max-width: 760px) {
+            .members-container{
+                display: block;
+            }
+
+            .member img {
+                height: 50%;
+                width: 50%;
+                border-radius: 10%;
+                margin-bottom: 8px;
+                border-bottom: #555 solid 1px;
+            }
+
+            .member-name {
+                font-size: 1rem;
+            }
         }
     </style>
 </head>
 <body>
     <h1> {{ page.title }} </h1>
-    <p>
+    <p class="description">
         The Materials Modelling Group is based at the Technical University of Kenya. 
         We are dedicated in contributing to the advancement of theoretical and computational
         material science. 
@@ -64,95 +86,65 @@ title: About Us
     <h2> Our members </h2>
     <div class="members-container">
         <div class="member">
-            <img src="/pictures/amolo-go-passport.jpg" alt="Prof. George Amolo" >
-            <br>
-            <b>Prof. George Amolo</b>
+            <img src="assets/images/pictures/amolo-go-passport.jpg" alt="Prof. George Amolo" >
+            <p class="member-name">Prof. George Amolo</p>
         </div>
         <!--%%%%%%%%%%%%-->
         <div class="member">
-            <img src="/pictures/DrMikeAtambo.jpeg" alt="Dr. Mike Atambo">
-            <br>
-            <b>Dr. Mike Atambo</b>
+            <img src="assets/images/pictures/DrMikeAtambo.jpeg" alt="Dr. Mike Atambo">
+            <p class="member-name">Dr. Mike Atambo</p>
         </div>
         <!--%%%%%%%%%%%%-->
         <div class="member">
-            <img src="/pictures/DrRobertOnyancha.jpg" alt="Dr. Robert Onyancha" >
-            <br>
-            <b>Dr. Robert Onyancha</b>
+            <img src="assets/images/pictures/DrRobertOnyancha.jpg" alt="Dr. Robert Onyancha" >
+            <p class="member-name">Dr. Robert Onyancha</p>
         </div>
         <!--%%%%%%%%%%%%-->
         <div class="member">
-            <img src="/pictures/Lady.jpeg" alt="Dr. Mirriam Chepkoech">
-            <br>
-            <b>Dr. Mirriam Chepkoech</b>
+            <img src="assets/images/pictures/Lady.jpeg" alt="Dr. Mirriam Chepkoech">
+            <p class="member-name">Dr. Mirriam Chepkoech</p>
         </div>
         <!--%%%%%%%%%%%%-->
         <div class="member">
-            <img src="/pictures/Lady.jpeg" alt="Dr. Gladys King'ori">
-            <br>
-            <b>Dr. Gladys King'ori</b>
+            <img src="assets/images/pictures/Lady.jpeg" alt="Dr. Gladys King'ori">
+            <p class="member-name">Dr. Gladys King'ori</p>
         </div>
         <!--%%%%%%%%%%%%-->
         <div class="member">
-            <img src="/pictures/Lady.jpeg" alt="Perpetua Muchiri">
-            <br>
-            <b>Perpetua Muchiri</b>
+            <img src="assets/images/pictures/Lady.jpeg" alt="Perpetua Muchiri">
+            <p class="member-name">Perpetua Muchiri</p>
         </div>
         <!--%%%%%%%%%%%%-->
         <!--%%%%%%%%%%%%-->
         <div class="member">
-            <img src="/pictures/Lady.jpeg" alt="Carolyne Bakasa">
-            <br>
-            <b>Carolyne Bakasa</b>
+            <img src="assets/images/pictures/Lady.jpeg" alt="Carolyne Bakasa">
+            <p class="member-name">Carolyne Bakasa</p>
         </div>
         <!--%%%%%%%%%%%%-->
         <div class="member">
-            <img src="/pictures/ManPlaceHolder.png" alt="Renson">
-            <br>
-            <b>Renson</b>
+            <img src="assets/images/pictures/ManPlaceHolder.png" alt="Renson">
+            <p class="member-name">Renson</p>
         </div>
         <!--%%%%%%%%%%%%-->
         <!--%%%%%%%%%%%%-->
         <div class="member">
-            <img src="/pictures/BillOyomo.jpeg" alt="Bill Clintone">
-            <br>
-            <b>Bill Clintone</b>
+            <img src="assets/images/pictures/BillOyomo.jpeg" alt="Bill Clintone">
+            <p class="member-name">Bill Clintone</p>
         </div>
         <!--%%%%%%%%%%%%-->
         <div class="member">
-            <img src="/pictures/StephenChege.jpeg" alt="Stephen Chege">
-            <br>
-            <b>Stephen Chege</b>
+            <img src="assets/images/pictures/StephenChege.jpeg" alt="Stephen Chege">
+            <p class="member-name">Stephen Chege</p>
         </div>
         <!--%%%%%%%%%%%%-->
         <div class="member">
-            <img src="/pictures/LeahWairimu.jpg" alt="Leah Wairimu">
-            <br>
-            <b>Leah Wairimu</b>
+            <img src="assets/images/pictures/LeahWairimu.jpg" alt="Leah Wairimu">
+            <p class="member-name">Leah Wairimu</p>
         </div>
         <!--%%%%%%%%%%%%-->
         <div class="member">
-            <img src="/pictures/CharlesRotich.jpeg" alt="Charles Rotich">
-            <br>
-            <b>Charles Rotich</b>
+            <img src="assets/images/pictures/CharlesRotich.jpeg" alt="Charles Rotich">
+            <p class="member-name">Charles Rotich</p>
         </div>
-
     </div>
 </body>
-</html>
-
-
-
-
-<!-- This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll -->

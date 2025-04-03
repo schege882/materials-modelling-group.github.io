@@ -1,98 +1,133 @@
 ---
-layout: default
+layout: framework
 title: Collaborators
 ---
 
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        h1 {
+            font-size: 2rem;
+        }
+
+        .description {
+            text-align: justify;
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
         .members-container {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            /* border: lime solid; */
+            justify-content: space-around;
+            align-items: end;
+            margin: 0;
+            padding: 0;
         }
 
-        .member img {
-            height: 200px;
-            padding: 10px;
-            margin: 10px;
-            border-radius: 15%;
+         .member img {
+            height: 85%;
+            width: 85%;
+            border-radius: 10%;
+            margin: 0;
+            padding: 0;
         }
 
-        .member {
+        .member-name {
             text-align: center;
-        }
+            font-size: 0.8rem;
+            font-weight: bold;
+            margin-top: 0.5rem;
+        } 
+
+ /*        @media (max-width: 760px) {
+            .members-container{
+                display: block;
+            }
+
+            .member img {
+                height: 50%;
+                width: 50%;
+                border-radius: 10%;
+                margin-bottom: 8px;
+                border-bottom: #555 solid 1px;
+            }
+
+            .member-name {
+                font-size: 1rem;
+            }
+        } */
     </style>
 </head>
 <body>
     <h1> {{ page.title }} </h1>
-    <p>
+    <p class="description">
         We would like to acknowledge the following people have been continiously supportive to the 
-        Material modelling group.
+        Materials modelling group.
     </p>
 
     <h2> Our Collaborators </h2>
     <div class="members-container">
         <div class="member">
-            <img src="/pictures/AndreaMarini.jpeg" alt="Andrea Marini" >
-            <br>
-            <a href="https://amarinitlp.mystrikingly.com/" target="_blank">
+            <img src="assets/images/pictures/AndreaMarini.jpeg" alt="Andrea Marini" >
+            <p class="member-name"><a href="#" target="_blank" >
                 Andrea Marini
-            </a>
+            </a></p>
         </div>
         <!--%%%%%%%%%%%%-->
         <div class="member">
-            <img src="/pictures/RenataWentzcovitch.jpeg" alt="Renata Wentzcovitch">
-            <br>
-            <a href="https://www.apam.columbia.edu/faculty/renata-wentzcovitch" target="_blank">
-                Renata Wentzcovitch
-            </a>
+            <img src="assets/images/pictures/RenataWentzcovitch.jpeg" alt="Renata Wentzcovitch">
+            <p class="member-name">
+                <a href="https://www.apam.columbia.edu/faculty/renata-wentzcovitch" target="_blank">
+                    Renata Wentzcovitch
+                </a>
+            </p>
         </div>
         <!--%%%%%%%%%%%%-->
         <div class="member">
-            <img src="/pictures/JavierJunquera.jpeg" alt="Javier Junquera" >
-            <br>
-            <a href="https://personales.unican.es/junqueraj/">
-                Javier Junquera
-            </a>
+            <img src="assets/images/pictures/JavierJunquera.jpeg" alt="Javier Junquera" >
+            <p class="member-name">
+                <a href="https://personales.unican.es/junqueraj/" target="_blank">
+                    Javier Junquera
+                </a>                
+            </p>
         </div>
         <!--%%%%%%%%%%%%-->
         <div class="member">
-            <img src="/pictures/BiplapSinyal.jpeg" alt="Biplap Sinyal">
-            <br>
-            <a href="https://www.uu.se/en/contact-and-organisation/staff?query=N1-83">
-                Biplap Sinyal
-            </a>
+            <img src="assets/images/pictures/BiplapSinyal.jpeg" alt="Biplap Sinyal">
+            <p class="member-name">
+                <a href="https://www.uu.se/en/contact-and-organisation/staff?query=N1-83" target="_blank">
+                    Biplap Sinyal
+                </a>
+            </p>
         </div>
         <!--%%%%%%%%%%%%-->
         <div class="member">
-            <img src="/pictures/JamesSifuna.jpeg" alt="James Sifuna">
-            <br>
-            <a href="https://cuea.edu/Science/?personnel=dr-james-sifuna">
-                James Sifuna
-            </a>
+            <img src="assets/images/pictures/JamesSifuna.jpeg" alt="James Sifuna">
+            <p class="member-name">
+                <a href="https://cuea.edu/Science/?personnel=dr-james-sifuna" target="_blank">
+                    James Sifuna
+                </a>
+            </p>
         </div>
         <!--%%%%%%%%%%%%-->
         <div class="member">
-            <img src="/pictures/VicOdari.jpeg" alt="Victor Odari">
-            <br>
-            <a href="https://www.mmust.ac.ke/staffprofiles/index.php/dr-benjamin-victor-odari">
-                Victor Odari
-            </a>
+            <img src="assets/images/pictures/VicOdari.jpeg" alt="Victor Odari">
+            <p class="member-name">
+                <a href="https://www.mmust.ac.ke/staffprofiles/index.php/dr-benjamin-victor-odari" target="_blank">
+                    Victor Odari
+                </a>
+            </p>
         </div>
         <!--%%%%%%%%%%%%-->
         <div class="member">
-            <img src="/pictures/matteo_gatti.webp" alt="Matteo Gatti">
-            <br>
-            <a href="https://etsf.polytechnique.fr/People/Matteo">
-                Matteo Gatti
-            </a>
+            <img src="assets/images/pictures/matteo_gatti.webp" alt="Matteo Gatti">
+            <p class="member-name">
+                <a href="https://etsf.polytechnique.fr/People/Matteo" target="_blank" > 
+                    Matteo Gatti
+                </a>
+            </p>
         </div>
-
-
-    </div>
+    </div> 
 </body>
 </html>
