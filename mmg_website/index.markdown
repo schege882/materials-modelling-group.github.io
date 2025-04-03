@@ -41,7 +41,7 @@ layout: default
         <p>
             The <a href="https://materials-modelling-group.github.io/">Materials Modeling Group</a> 
             of the Department of Physics, Earth and Environment Science at The Technical 
-            University of Kenya, has been nominated to participate in an Erasmus Mundus
+            University of Kenya, has been nominated to participate in an Erasmus+
             research mobility grant in partnership with University of Cantabria in Spain.
             A call for expression of interest for participation is made with the 
             following requirements: 
@@ -62,9 +62,10 @@ layout: default
         collaborators, the beneficiary’s costs will be covered by the program’s budget.
         </p>
 
-        <h4>Applications and More Information</h4>
+        <h4>Applications, Dealine and More Information</h4>
         <p>Please send your CV and relevant documentation of your academic qualifications to
         <a href="mailto:erasmus-tukmmg-23@tukenya.ac.ke">erasmus-tukmmg-23@tukenya.ac.ke</a>.
+         All applications must be sent on or before <strong>17th of April 2025</strong>.
         </p>
 
         <div class="erasmus-call">
