@@ -56,7 +56,7 @@ layout: default
             This event has received support from the CNR-ISM, the Abdus Salaam ICTP, the CNRS and facilitation from the Technical University of
             Kenya, Masinde Muliro University and Moi University.
         </p>
-        <img src="assets/images/pictures/pwf-training.jpg" class="erasmus23" style="width:50%"  alt="">
+        <img src="assets/images/pictures/pwf-training.jpg" class="erasmus23" style="width:70%;margin-left:15%"  alt="">
     </div>
     <div class="container">
 
