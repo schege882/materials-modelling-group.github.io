@@ -45,7 +45,7 @@ layout: default
             with lecturers drawn from Kenya, France and Italy. 
             The aim of this event is extensive methodological training, taking the participants beyond an introduction to 
             the field of condensed matter, and giving them in depth lectures on advanced theoretical knowledge in Density Functional Theory.
-        <img src="assets/images/pictures/pwf-2025.jpg"  style="height:160px;margin-left:10%" alt="">
+        <img src="assets/images/pictures/pwf-2025.jpg" class="erasmus23"  style="width:40%" alt="">
             A key outcome of this overall project would be, after the completion of this initiative, that it will no longer 
             be necessary for such advanced training to be conducted by experts from outside the continent, but the knowledge 
             will be resident in local experts. In-depth subject matter expertise is still to a great extent undeveloped in the 
@@ -54,7 +54,7 @@ layout: default
             This event has received support from the CNR-ISM, the Abdus Salaam ICTP, the CNRS and facilitation from the Technical University of
             Kenya, Masinde Muliro University and Moi University.
         </p>
-        <img src="assets/images/pictures/pwf-training.jpg" class="erasmus23" alt="">
+        <img src="assets/images/pictures/pwf-training.jpg" class="erasmus23" style="width:50%"  alt="">
     </div>
     <div class="container">
 
