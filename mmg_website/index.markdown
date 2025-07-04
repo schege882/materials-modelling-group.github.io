@@ -37,6 +37,28 @@ layout: default
      <h1>Welcome to Materials Modelling Group</h1>
 
     <div class="container">
+    <h2>Advancing Methodological Excellence In Africa at the MMG: ICTP-PWF Methodological School On Density Functional Theory</h2>
+        <p>
+            The <a href="https://materials-modelling-group.github.io/">Materials Modeling Group</a> 
+            is hosting the third event of the year long APhRICA program, with an emphasis on methodological 
+            aspects of DFT. In the school are a total of 17 participants, from 7 different countries, including Kenya,  
+            with lecturers drawn from Kenya, France and Italy. 
+            The aim of this event is extensive methodological training, taking the participants beyond an introduction to 
+            the field of condensed matter, and giving them in depth lectures on advanced theoretical knowledge in Density Functional Theory.
+        <img src="assets/images/pictures/pwf-2025.jpg" class="erasmus23" alt="">
+            A key outcome of this overall project would be, after the completion of this initiative, that it will no longer 
+            be necessary for such advanced training to be conducted by experts from outside the continent, but the knowledge 
+            will be resident in local experts. In-depth subject matter expertise is still to a great extent undeveloped in the 
+            region, and this is a shortcoming that other parallel efforts have been unable to address. 
+
+            This event has received support from the CNR-ISM, the Abdus Salaam ICTP, the CNRS and facilitation from the Technical University of
+            Kenya, Masinde Muliro University and Moi University.
+        </p>
+        <img src="assets/images/pictures/pwf-training.jpg" class="erasmus23" alt="">
+    </div>
+
+
+    <div class="container">
     <h2>Erasmus+ Call</h2>
         <p>
             The <a href="https://materials-modelling-group.github.io/">Materials Modeling Group</a> 
