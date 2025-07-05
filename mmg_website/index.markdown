@@ -58,9 +58,9 @@ layout: default
         </p>
         <img src="assets/images/pictures/pwf-training.jpg" class="erasmus23"  alt="">
         <div class="erasmus-call">
-           <img src="assets/images/pictures/logos/cnr-logo.jpeg" class="tuk-logo"   alt="">
-           <img src="assets/images/pictures/logos/ictp-logo.png" class="unican-logo"  alt="">
-           <img src="assets/images/pictures/logos/cnrs-logo.png" class="unican-logo"  alt="">
+           <img src="assets/images/pictures/logos/cnr-logo.jpeg" class="tuk-logo" style="width:25%!"   alt="">
+           <img src="assets/images/pictures/logos/ictp-logo.png" class="unican-logo" style="width:25%!"   alt="">
+           <img src="assets/images/pictures/logos/cnrs.png" class="unican-logo" style="width:25%!"   alt="">
         </div>
     </div>
     <div class="container">
