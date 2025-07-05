@@ -57,11 +57,10 @@ layout: default
             Kenya, Masinde Muliro University and Moi University.
         </p>
         <img src="assets/images/pictures/pwf-training.jpg" class="erasmus23"  alt="">
-        <p>
+        <p></p>
         <img src="assets/images/pictures/logos/cnr-logo.jpeg" class="erasmus23" style="width:20%"  alt="">
         <img src="assets/images/pictures/logos/ictp-logo.png" class="erasmus23" style="width:20%"  alt="">
         <img src="assets/images/pictures/logos/cnrs-logo.png" class="erasmus23" style="width:20%"  alt="">
-        </p>
     </div>
     <div class="container">
 
