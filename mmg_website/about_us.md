@@ -2,8 +2,51 @@
 layout: framework
 title: About Us
 ---
-
-<link rel="stylesheet" href="/assets/css/custom.css">
+<!-- <link rel="stylesheet" href="/assets/css/custom.css"> -->
+<head>
+    <style>
+        abbr {
+            text-decoration: none;
+        }
+        .member-name {
+            text-align: center;
+            font-size: 0.9rem;
+            font-weight: bold;
+            margin: 0;
+        }
+        .members-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            padding: 15px;
+            justify-content: center;
+        }
+        .member {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 250px;
+        }
+        .member img {
+            width: 100%;
+            aspect-ratio: 1 / 1;  /* Forces square images */
+            /* height: 200px; */ /* Fixed height to ensure uniformity */
+            object-fit: cover;
+            object-position: center;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            max-width: 100%;
+        }
+        @media (max-width: 600px) {
+            .members-container {
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            }
+            .member img {
+                height: 140px; /* Smaller height for mobile */
+            }
+        }
+    </style>
+</head>
 
 # **ABOUT US**
 
