@@ -55,10 +55,12 @@ We would like to acknowledge the following people have been continiously support
 
 <div class="members-container">
     <div class="member">
-        <a href="#" target="_blank">
-            <img src="assets/images/collaborators/AndreaMarini.jpeg" alt="Andrea Marini" >
-        </a>
-        <p class="member-name">Andrea Marini</p>
+        <img src="assets/images/collaborators/AndreaMarini.jpeg" alt="Andrea Marini" >
+        <p class="member-name">
+            <a href="https://flash-it.eu/about-us/andrea-marini/" target="_blank">
+                Andrea Marini
+            </a>
+        </p>
     </div>
     <!--%%%%%%%%%%%%-->
     <div class="member">
