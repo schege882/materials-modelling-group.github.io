@@ -49,7 +49,7 @@ header_pages:
   - research_themes.html
   - activities.html
   - publications.html
-  - about_us.html
+  - about_us.md
   - collaborators.html 
 
 # Enable use of MathJax
