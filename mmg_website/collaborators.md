@@ -2,8 +2,8 @@
 layout: framework
 title: Collaborators
 ---
-<!-- <link rel="stylesheet" href="/assets/css/custom.css"> -->
-<head>
+<link rel="stylesheet" href="assets/css/custom.css">
+<!-- <head>
     <style>
         abbr {
             text-decoration: none;
@@ -46,7 +46,7 @@ title: Collaborators
             }
         }
     </style>
-</head>
+</head> -->
 
 # **COLLABORATORS**
 We would like to acknowledge the following people have been continiously supportive to the Materials modelling group.

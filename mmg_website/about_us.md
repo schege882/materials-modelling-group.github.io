@@ -73,11 +73,9 @@ title: About Us
 </p>
 
 # **Our Members**
-<!-- ![Prof. George Amolo](/assets/images/members/amolo-go-passport.jpg) ![Dr.Mike Atambo](/assets/images/members/DrMikeAtambo.jpeg) ![Dr.Robert Onyancha](/assets/images/members/DrRobertOnyancha.jpg) ![Dr.Miriam Chepkoech](/assets/images/members/Lady.jpeg) -->
-
 <div class="members-container">
     <div class="member">
-        <img src="/assets/images/members/amolo-go-passport.jpg" alt="Prof. George Amolo" >
+        <img src="assets/images/members/amolo-go-passport.jpg" alt="Prof. George Amolo" >
         <p class="member-name">Prof. George Amolo</p>
     </div>
     <!--%%%%%%%%%%%%-->

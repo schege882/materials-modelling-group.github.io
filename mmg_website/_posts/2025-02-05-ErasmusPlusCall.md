@@ -23,7 +23,7 @@ Physics, Earth and Environment Science at The Technical University of Kenya, has
 participate in an Erasmus+ research mobility grant in partnership with University of Cantabria in 
 Spain.
 
-<img src="/assets/images/posters/Erasmus-photo-2023.jpeg" alt="Members of MMG with previous beneficiaries of the 2023 Erasmus+ mobility grant" title="Members of MMG with previous beneficiaries of the 2023 Erasmus+ mobility grant">
+<img src="assets/images/posters/Erasmus-photo-2023.jpeg" alt="Members of MMG with previous beneficiaries of the 2023 Erasmus+ mobility grant" title="Members of MMG with previous beneficiaries of the 2023 Erasmus+ mobility grant">
 
 A call for expression of interest for participation is made with the following requirements:
 #### Applicant Profile
@@ -44,6 +44,6 @@ Please send your CV and relevant documentation of your academic qualifications t
 All applications must be sent on or before **17th of April 2025**.
 
 <div class="erasmus-call">
-    <img src="/assets/images/logos/tuk-logo.webp" class="tuk-logo" alt="">
-    <img src="/assets/images/logos/unican-logo.jpg" class="unican-logo" alt="">
+    <img src="assets/images/logos/tuk-logo.webp" class="tuk-logo" alt="">
+    <img src="assets/images/logos/unican-logo.jpg" class="unican-logo" alt="">
 </div>
