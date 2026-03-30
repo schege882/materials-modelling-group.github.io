@@ -7,6 +7,9 @@ math: true
 # **ARTICLES & PUBLICATIONS**
 This page contains a list of articles and publications from the MMG members and their collaborators.
 
+## **2026**
+- [Unraveling the effects of anionic vacancies and temperature on mechanical properties of NbC and NbN: Insights from Quantum Mechanical Study](https://arxiv.org/abs/2601.05712)
+
 ## **2025**
 - [On the Automation of High Throughput Modeling of Adsorption In Porous Zeolitic Imidazolate Frameworks](https://arxiv.org/abs/2503.10535)
 
